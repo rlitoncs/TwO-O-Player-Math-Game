@@ -26,7 +26,6 @@ class MyGame
       begin 
         @console.log("Seriously? No!") 
         @current_player.lose_life
-        game_over?
         @console.log("P1: #{@player_1.lives}/3 vs P2: #{@player_2.lives}/3")
       end 
     
